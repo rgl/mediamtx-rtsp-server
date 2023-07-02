@@ -1,0 +1,12 @@
+logLevel: debug
+paths:
+  smptebars:
+    runOnInit: >
+      ffmpeg
+      -nostats
+      -re
+      -stream_loop -1
+      -i smptebars.mp4
+      -f rtsp
+      rtsp://localhost:$RTSP_PORT/$MTX_PATH
+    runOnInitRestart: yes

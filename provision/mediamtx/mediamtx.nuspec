@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>mediamtx</id>
+    <version>0.0.0</version>
+    <title>mediamtx</title>
+    <authors>mediamtx</authors>
+    <owners>chocolatey-community</owners>
+    <licenseUrl>https://github.com/bluenviron/mediamtx/blob/main/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/bluenviron/mediamtx</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MediaMTX (formerly rtsp-simple-server) is a ready-to-use and zero-dependency real-time media server and media proxy that allows users to publish, read and proxy live video and audio streams. It has been conceived as a "media broker", a message broker that routes media streams.</description>
+    <summary>MediaMTX (formerly rtsp-simple-server) is a ready-to-use and zero-dependency real-time media server and media proxy.</summary>
+    <releaseNotes>https://github.com/bluenviron/mediamtx/releases</releaseNotes>
+    <copyright />
+    <language>en-US</language>
+    <tags>foss cli audio video convert cross-platform media</tags>
+    <projectSourceUrl>https://github.com/bluenviron/mediamtx</projectSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" />
+  </files>
+</package>

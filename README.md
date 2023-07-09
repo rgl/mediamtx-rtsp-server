@@ -2,7 +2,7 @@
 
 Use the [MediaMTX](https://github.com/bluenviron/mediamtx) RTSP server to stream a MP4 file.
 
-# Usage (Ubuntu Desktop 22.04)
+# Usage (Ubuntu Desktop 22.04 and Linux container)
 
 Install docker.
 
@@ -27,6 +27,35 @@ In another shell, start the VLC RTSP client:
 
 ```bash
 ./client.sh
+```
+
+To try other protocols, open the following web pages with a web browser:
+
+http://localhost:8889/smptebars (WebRTC-HTTP Egress Protocol (WHEP))
+http://localhost:8888/smptebars (HTTP Live Streaming (HLS))
+
+# Usage (Ubuntu Desktop 22.04 and Windows VM)
+
+Install the [Windows Vagrant Box](https://github.com/rgl/windows-vagrant) and its dependencies.
+
+Launch the VM:
+
+```bash
+vagrant up --no-destroy-on-error --provider=libvirt
+```
+
+Login the Windows VM desktop.
+
+Open a PowerShell session and execute:
+
+```powershell
+PowerShell -File c:\vagrant\server.ps1
+```
+
+In another shell, start the VLC RTSP client:
+
+```powershell
+PowerShell -File c:\vagrant\client.ps1
 ```
 
 To try other protocols, open the following web pages with a web browser:

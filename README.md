@@ -23,11 +23,16 @@ sudo snap install vnc
 hash -r
 ```
 
-In another shell, start the RTSP client:
+In another shell, start the VLC RTSP client:
 
 ```bash
 ./client.sh
 ```
+
+To try other protocols, open the following web pages with a web browser:
+
+http://localhost:8889/smptebars (WebRTC-HTTP Egress Protocol (WHEP))
+http://localhost:8888/smptebars (HTTP Live Streaming (HLS))
 
 # Alternatives
 

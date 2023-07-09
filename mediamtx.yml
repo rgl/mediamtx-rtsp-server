@@ -7,6 +7,7 @@ paths:
       -re
       -stream_loop -1
       -i smptebars.mp4
+      -c copy
       -f rtsp
       rtsp://localhost:$RTSP_PORT/$MTX_PATH
     runOnInitRestart: yes

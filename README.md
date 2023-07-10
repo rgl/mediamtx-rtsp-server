@@ -46,22 +46,14 @@ vagrant up --no-destroy-on-error --provider=libvirt
 
 Login the Windows VM desktop.
 
-Open a PowerShell session and execute:
+Wait a few seconds for the desktop to be configured.
 
-```powershell
-PowerShell -File c:\vagrant\server.ps1
-```
+Try the different protocols by double clicking the smptebars links that are on the desktop:
 
-In another shell, start the VLC RTSP client:
-
-```powershell
-PowerShell -File c:\vagrant\client.ps1
-```
-
-To try other protocols, open the following web pages with a web browser:
-
-http://localhost:8889/smptebars (WebRTC-HTTP Egress Protocol (WHEP))
-http://localhost:8888/smptebars (HTTP Live Streaming (HLS))
+* smptebars VLC RTSP (Real Time Streaming Protocol).
+* smptebars MPV RTSP (Real Time Streaming Protocol).
+* smptebars HLS (HTTP Live Streaming).
+* smptebars WHEP (WebRTC-HTTP Egress Protocol).
 
 # Alternatives
 

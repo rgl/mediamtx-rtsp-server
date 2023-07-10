@@ -18,6 +18,6 @@
     <projectSourceUrl>https://github.com/bluenviron/mediamtx</projectSourceUrl>
   </metadata>
   <files>
-    <file src="tools\**" />
+    <file src="tools\**" target="tools" />
   </files>
 </package>

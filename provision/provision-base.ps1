@@ -189,6 +189,10 @@ New-Item -Path HKCU:Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetSt
 # install chocolatey.
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
+# install the carbon powershell module and nssm.
+choco install -y carbon
+choco install -y nssm
+
 # install useful applications.
 choco install -y 7zip
 choco install -y notepad3

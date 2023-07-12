@@ -75,6 +75,9 @@ public static class WindowsWallpaper
 '@ -ReferencedAssemblies System.Drawing
 [WindowsWallpaper]::Set($backgroundColor, $backgroundPath)
 
+# install the ffmpeg icon.
+Copy-Item ffmpeg.ico "$env:ProgramData\ffmpeg.ico"
+
 # cleanup the taskbar by removing the existing buttons and unpinning all applications; once the user logs on.
 # NB the shell executes these RunOnce commands about ~10s after the user logs on.
 [IO.File]::WriteAllText(
@@ -132,6 +135,7 @@ Import-Module C:\ProgramData\chocolatey\helpers\chocolateyInstaller.psm1
     ,('Google Chrome', 'C:\Program Files\Google\Chrome\Application\chrome.exe')
     ,('smptebars VLC RTSP (Real Time Streaming Protocol)', 'C:\Program Files\VideoLAN\VLC\vlc.exe', '-vvv rtsp://localhost:8554/smptebars')
     ,('smptebars MPV RTSP (Real Time Streaming Protocol)', 'C:\ProgramData\chocolatey\lib\mpvio.install\tools\mpv.exe', 'rtsp://localhost:8554/smptebars')
+    ,('smptebars ffplay RTSP (Real Time Streaming Protocol)', 'C:\ProgramData\chocolatey\lib\ffmpeg\tools\ffmpeg\bin\ffplay.exe', 'rtsp://localhost:8554/smptebars', "$env:ProgramData\ffmpeg.ico")
     ,('smptebars WHEP (WebRTC-HTTP Egress Protocol)', 'http://localhost:8889/smptebars')
     ,('smptebars HLS (HTTP Live Streaming)', 'http://localhost:8888/smptebars')
 ) | ForEach-Object {

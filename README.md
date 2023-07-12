@@ -48,10 +48,12 @@ Login the Windows VM desktop.
 
 Wait a few seconds for the desktop to be configured.
 
-Try the different protocols by double clicking the smptebars links that are on the desktop:
+Try different client applications and protocols by double clicking the
+smptebars links that are on the desktop:
 
 * smptebars VLC RTSP (Real Time Streaming Protocol).
 * smptebars MPV RTSP (Real Time Streaming Protocol).
+* smptebars ffplay RTSP (Real Time Streaming Protocol).
 * smptebars HLS (HTTP Live Streaming).
 * smptebars WHEP (WebRTC-HTTP Egress Protocol).
 

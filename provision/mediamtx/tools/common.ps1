@@ -25,7 +25,6 @@ function Install-Service {
     nssm install $serviceName "$toolsPath\mediamtx\mediamtx.exe"
     nssm set $serviceName Start SERVICE_AUTO_START
     nssm set $serviceName AppDirectory $serviceHome
-    nssm set $serviceName AppEnvironmentExtra NO_COLOR=1
     [string[]]$result = sc.exe sidtype $serviceName unrestricted
     if ($result -ne '[SC] ChangeServiceConfig2 SUCCESS') {
         throw "sc.exe sidtype failed with $result"

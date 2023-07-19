@@ -1,13 +1,17 @@
 # install fonts.
+# see https://community.chocolatey.org/packages/dejavufonts
 choco install -y dejavufonts
 
 # install vlc.
+# see https://community.chocolatey.org/packages/vlc
 choco install -y vlc --version 3.0.18
 
 # install mpv.
+# see https://community.chocolatey.org/packages/mpvio.install
 choco install -y mpvio.install --version 0.35.1
 
 # install ffmpeg.
+# see https://community.chocolatey.org/packages/ffmpeg
 choco install -y ffmpeg --version 6.0
 
 # set the mediamtx service configuration.

@@ -1,4 +1,5 @@
-$archiveVersion = '0.23.8'
+# see https://github.com/bluenviron/mediamtx/releases
+$archiveVersion = '1.0.3'
 $archiveUrl = "https://github.com/bluenviron/mediamtx/releases/download/v${archiveVersion}/mediamtx_v${archiveVersion}_windows_amd64.zip"
 $archiveName = Split-Path -Leaf $archiveUrl
 $archivePath = "$env:TEMP\$archiveName"

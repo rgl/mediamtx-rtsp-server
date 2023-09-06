@@ -29,11 +29,12 @@ ffmpeg \
     smptebars.mp4
 EOF
 
+# see https://github.com/bluenviron/mediamtx/releases
 RUN <<"EOF"
 set -euxo pipefail
 install -d /tmp/mediamtx
 wget -qO- \
-    https://github.com/bluenviron/mediamtx/releases/download/v0.23.8/mediamtx_v0.23.8_linux_amd64.tar.gz \
+    https://github.com/bluenviron/mediamtx/releases/download/v1.0.3/mediamtx_v1.0.3_linux_amd64.tar.gz \
     | tar xzf - -C /tmp/mediamtx
 install /tmp/mediamtx/mediamtx /
 rm -rf /tmp/mediamtx

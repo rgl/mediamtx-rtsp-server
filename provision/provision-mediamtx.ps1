@@ -4,7 +4,7 @@ choco install -y dejavufonts
 
 # install vlc.
 # see https://community.chocolatey.org/packages/vlc
-choco install -y vlc --version 3.0.19
+choco install -y vlc --version 3.0.20
 
 # install mpv.
 # see https://community.chocolatey.org/packages/mpvio.install

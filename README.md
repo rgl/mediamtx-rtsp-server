@@ -31,8 +31,8 @@ In another shell, start the VLC RTSP client:
 
 To try other protocols, open the following web pages with a web browser:
 
-http://localhost:8889/smptebars (WebRTC-HTTP Egress Protocol (WHEP))
-http://localhost:8888/smptebars (HTTP Live Streaming (HLS))
+* http://localhost:8889/smptebars (WebRTC-HTTP Egress Protocol (WHEP))
+* http://localhost:8888/smptebars (HTTP Live Streaming (HLS))
 
 # Usage (Ubuntu Desktop 22.04 and Windows VM)
 

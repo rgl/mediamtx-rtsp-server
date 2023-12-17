@@ -1,5 +1,6 @@
-# syntax=docker/dockerfile:1.4
-# see https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/syntax.md
+# syntax=docker/dockerfile:1.6
+# see https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/reference.md
+# see https://hub.docker.com/r/docker/dockerfile
 
 FROM alpine:3.18
 

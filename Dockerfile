@@ -2,7 +2,7 @@
 # see https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/reference.md
 # see https://hub.docker.com/r/docker/dockerfile
 
-FROM alpine:3.18
+FROM alpine:3.19
 
 RUN <<"EOF"
 set -euxo pipefail
@@ -35,7 +35,7 @@ RUN <<"EOF"
 set -euxo pipefail
 install -d /tmp/mediamtx
 wget -qO- \
-    https://github.com/bluenviron/mediamtx/releases/download/v1.4.0/mediamtx_v1.4.0_linux_amd64.tar.gz \
+    https://github.com/bluenviron/mediamtx/releases/download/v1.5.1/mediamtx_v1.5.1_linux_amd64.tar.gz \
     | tar xzf - -C /tmp/mediamtx
 install /tmp/mediamtx/mediamtx /
 rm -rf /tmp/mediamtx

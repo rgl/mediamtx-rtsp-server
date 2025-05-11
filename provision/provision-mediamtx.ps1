@@ -8,7 +8,7 @@ choco install -y vlc --version 3.0.21
 
 # install mpv.
 # see https://community.chocolatey.org/packages/mpvio.install
-choco install -y mpvio.install --version 0.38.0
+choco install -y mpvio.install --version 0.39.0
 
 # install ffmpeg.
 # see https://community.chocolatey.org/packages/ffmpeg

@@ -1,4 +1,4 @@
-# syntax=docker/dockerfile:1.9
+# syntax=docker/dockerfile:1.15
 # see https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/reference.md
 # see https://hub.docker.com/r/docker/dockerfile
 

@@ -2,7 +2,7 @@
 # see https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/reference.md
 # see https://hub.docker.com/r/docker/dockerfile
 
-FROM alpine:3.21
+FROM alpine:3.22
 
 RUN <<"EOF"
 set -euxo pipefail

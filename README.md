@@ -36,7 +36,7 @@ To try other protocols, open the following web pages with a web browser:
 
 # Usage (Ubuntu Desktop 22.04 and Windows VM)
 
-Install the [Windows Vagrant Box](https://github.com/rgl/windows-vagrant) and its dependencies.
+Install the [Windows 2022 UEFI Vagrant Box](https://github.com/rgl/windows-vagrant) and its dependencies.
 
 Launch the VM:
 

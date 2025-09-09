@@ -2,7 +2,7 @@ VM_CPUS = 4
 VM_MEMORY_MB = 4*1024
 
 Vagrant.configure(2) do |config|
-  config.vm.box = 'windows-2022-amd64'
+  config.vm.box = 'windows-2022-uefi-amd64'
 
   config.vm.provider 'libvirt' do |lv, config|
     lv.memory = VM_MEMORY_MB

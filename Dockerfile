@@ -35,7 +35,7 @@ RUN <<"EOF"
 set -euxo pipefail
 install -d /tmp/mediamtx
 wget -qO- \
-    https://github.com/bluenviron/mediamtx/releases/download/v1.14.0/mediamtx_v1.14.0_linux_amd64.tar.gz \
+    https://github.com/bluenviron/mediamtx/releases/download/v1.15.1/mediamtx_v1.15.1_linux_amd64.tar.gz \
     | tar xzf - -C /tmp/mediamtx
 install /tmp/mediamtx/mediamtx /
 rm -rf /tmp/mediamtx

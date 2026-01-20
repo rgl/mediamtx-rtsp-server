@@ -2,7 +2,7 @@
 
 Use the [MediaMTX](https://github.com/bluenviron/mediamtx) RTSP server to stream a MP4 file.
 
-# Usage (Ubuntu Desktop 22.04 and Linux container)
+# Usage (Ubuntu Desktop 24.04 and Linux container)
 
 Install docker.
 
@@ -34,7 +34,7 @@ To try other protocols, open the following web pages with a web browser:
 * http://localhost:8889/smptebars (WebRTC-HTTP Egress Protocol (WHEP))
 * http://localhost:8888/smptebars (HTTP Live Streaming (HLS))
 
-# Usage (Ubuntu Desktop 22.04 and Windows VM)
+# Usage (Ubuntu Desktop 24.04 and Windows VM)
 
 Install the [Windows 2022 UEFI Vagrant Box](https://github.com/rgl/windows-vagrant) and its dependencies.
 

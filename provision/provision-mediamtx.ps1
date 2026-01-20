@@ -4,15 +4,15 @@ choco install -y dejavufonts
 
 # install vlc.
 # see https://community.chocolatey.org/packages/vlc
-choco install -y vlc --version 3.0.21
+choco install -y vlc --version 3.0.23
 
 # install mpv.
 # see https://community.chocolatey.org/packages/mpvio.install
-choco install -y mpvio.install --version 0.40.0
+choco install -y mpvio.install --version 0.41.0
 
 # install ffmpeg.
 # see https://community.chocolatey.org/packages/ffmpeg
-choco install -y ffmpeg --version 8.0.0
+choco install -y ffmpeg --version 8.0.1
 
 # set the mediamtx service configuration.
 $serviceHome = "$env:ProgramData\mediamtx"

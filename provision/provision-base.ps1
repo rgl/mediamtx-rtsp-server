@@ -138,6 +138,7 @@ Import-Module C:\ProgramData\chocolatey\helpers\chocolateyInstaller.psm1
     ,('smptebars ffplay RTSP (Real Time Streaming Protocol)', 'C:\ProgramData\chocolatey\lib\ffmpeg\tools\ffmpeg\bin\ffplay.exe', 'rtsp://localhost:8554/smptebars', "$env:ProgramData\ffmpeg.ico")
     ,('smptebars WHEP (WebRTC-HTTP Egress Protocol)', 'http://localhost:8889/smptebars')
     ,('smptebars HLS (HTTP Live Streaming)', 'http://localhost:8888/smptebars')
+    ,('smptebars MOQ (Media-over-QUIC)', 'https://localhost:8892/smptebars')
 ) | ForEach-Object {
     if ($_[1] -like 'http*') {
         [IO.File]::WriteAllText("$env:USERPROFILE\Desktop\$($_[0]).url", @"

@@ -33,6 +33,7 @@ To try other protocols, open the following web pages with a web browser:
 
 * http://localhost:8889/smptebars (WebRTC-HTTP Egress Protocol (WHEP))
 * http://localhost:8888/smptebars (HTTP Live Streaming (HLS))
+* https://localhost:8892/smptebars (Media-over-QUIC (MOQ))
 
 # Usage (Ubuntu Desktop 24.04 and Windows VM)
 
@@ -56,6 +57,7 @@ smptebars links that are on the desktop:
 * smptebars ffplay RTSP (Real Time Streaming Protocol).
 * smptebars HLS (HTTP Live Streaming).
 * smptebars WHEP (WebRTC-HTTP Egress Protocol).
+* smptebars MOQ (Media-over-QUIC).
 
 # Alternatives
 

@@ -12,7 +12,7 @@ choco install -y mpvio.install --version 0.41.0
 
 # install ffmpeg.
 # see https://community.chocolatey.org/packages/ffmpeg
-choco install -y ffmpeg --version 8.0.1
+choco install -y ffmpeg --version 8.1.1
 
 # set the mediamtx service configuration.
 $serviceHome = "$env:ProgramData\mediamtx"
